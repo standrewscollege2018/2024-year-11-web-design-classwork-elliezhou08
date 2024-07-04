@@ -16,6 +16,7 @@ h1 {
     font-display: bold;
     font-size: 20pt;
     padding: 20px 0px 15px 0px;
+    text-align: center;
 }
 
 h2 {
@@ -41,6 +42,46 @@ ul {
     margin: 5px 20px 5px 20px;
 
 }
+
+.index-container {
+    display: grid;
+    grid-template-columns: 33% 67%;
+}
+
+.summary {
+    width: 400px;
+    height: auto;
+}
+
+.countries {
+    width: 100%;
+    height: auto;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px
+}
+
+.card {
+
+    border: 1px solid rgb(248, 254, 254);
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+
+.card img {
+    height: 300px;
+
+}
+
+.introduction {
+    text-align: center;
+}
+
 
 
 
