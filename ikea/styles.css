@@ -56,15 +56,19 @@ h2 {
 
     height: auto;
     display: grid;
-    grid-template-columns: 400px 1fr;
+    grid-template-columns: 200px 1fr;
     padding: 30px 80px;
     background-color: rgb(237 237 235);
     
 }
 
 .logo img {
-    width: 200px;
+    width: 100%;
     height: auto;
+}
+
+.logo {
+    width: 200px;
 }
 
 .main {
@@ -316,9 +320,6 @@ h2 {
         grid-row: 2;
         grid-column: span 2;
         margin-top: 0px;
-    }
-    .nav-bottom a:hover {
-        background-color: rgb(194 194 194);
     }
 
     .date {
